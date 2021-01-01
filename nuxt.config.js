@@ -4,18 +4,25 @@ export default {
 
     // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
-        title: 'v2.cheickahmedsidibe.com',
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: '' },
-        ],
-        link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { rel : 'stylesheet', href : 'https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap' }
-        ]
+    	title: 'Sidibé Cheick Ahmed',
+    	head: {
+    		htmlAttrs : {
+    			lang : 'fr-FR'
+    		},
+    		meta: [
+	    		{ charset: 'utf-8' },
+	    		{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+	    		{ hid: 'description', name: 'description', content: 'Hello, je suis Ahmed ! développeur fullstack Laravel - Vue.js basé à Paris.' },
+	    		{ hid: 'canonical', name: 'canonical', content: 'https://cheickahmedsidibe.com' },
+	    		{ hid: 'type', name: 'type', content: 'website' },
+	    		{ hid : 'language', name : 'language', content : 'fr' },
+    		],
+    		link: [
+	    		{ rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
+	    		{ rel : 'stylesheet', href : 'https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap' }
+    		]
+    	}
     },
-
     // Global CSS (https://go.nuxtjs.dev/config-css)
     css: [
     ],
@@ -36,7 +43,21 @@ export default {
         '@nuxtjs/axios',
         // https://go.nuxtjs.dev/content
        // '@nuxt/content',
+      	'@nuxtjs/sitemap',
+    	'@nuxtjs/robots',
     ],
+
+    sitemap : {
+      	path : '/sitemap.xml',
+      	hostname : 'https://cheickahmedsidibe.com',
+      	routes: []
+    },
+
+    robots: {
+      	UserAgent: '*',
+      	Allow : '/',
+      	sitemap : 'https://cheickahmedsidibe.com/sitemap.xml'
+    },
 
     // Axios module configuration (https://go.nuxtjs.dev/config-axios)
     axios: {},

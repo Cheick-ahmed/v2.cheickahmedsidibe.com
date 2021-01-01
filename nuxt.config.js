@@ -1,4 +1,10 @@
 export default {
+    // Target (https://go.nuxtjs.dev/config-target)
+    target: 'server',
+
+    static: {
+    	prefix: false
+  	},
 
     // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
@@ -10,11 +16,10 @@ export default {
 	    		{ charset: 'utf-8' },
 	    		{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 	    		{ hid: 'type', name: 'type', content: 'website' },
-	    		{ hid: 'canonical', name: 'canonical', content: 'https://cheickahmedsidibe.com' },
 	    		{ hid : 'language', name : 'language', content : 'fr' }
     		],
     		link: [
-	    		{ rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
+	    		{ hid: 'canonical', name: 'canonical', content: 'https://cheickahmedsidibe.com' },
 	    		{ rel : 'stylesheet', href : 'https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap' }
     		]
     	}

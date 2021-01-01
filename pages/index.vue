@@ -141,6 +141,13 @@ export default {
 			title : 'Sidibé Cheick Ahmed',
 			meta : [
 			{ hid: 'description', name: 'description', content: 'Hello, je suis Ahmed ! développeur fullstack Laravel - Vue.js basé à Paris.' }
+			],
+			link: [
+			{
+				rel: 'icon',
+				type: 'image/svg+xml',
+				href: '/favicon.svg',
+			},
 			]
 		}
 	}

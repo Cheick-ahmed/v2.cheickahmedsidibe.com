@@ -25,9 +25,20 @@
 			</div>
 			<div class="mt-8 md:mt-0 md:order-1">
 				<p class="text-center text-base text-gray-400">
-					&copy; Ahmed 2021.
+					&copy; Ahmed {{ date }}
 				</p>
 			</div>
 		</div>
 	</footer>
 </template>
+
+<script>
+	export default {
+		computed : {
+			date () {
+				let date = new Date()
+				return date.getFullYear()
+			}
+		}
+	}
+</script>

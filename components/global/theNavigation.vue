@@ -3,11 +3,11 @@
 		<div class="max-w-5xl mx-auto px-4 sm:px-6">
 			<div class="flex items-center justify-between">
 				<div class="flex-shrink-0 flex items-center">
-					<img class="h-8 w-auto" src="~assets/images/ahmed.svg" alt="Workflow logo">
+					<img class="h-8 w-auto" src="~assets/images/ahmed.svg" alt="Ahmed logo">
 				</div>
 
 				<div>
-					<p class="text-sm text-gray-500">
+					<p class="text-sm text-gray-500 sm:text-base">
 						{{ date }}
 					</p>
 				</div>

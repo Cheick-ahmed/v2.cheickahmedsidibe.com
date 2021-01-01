@@ -1,10 +1,7 @@
 export default {
-    // Target (https://go.nuxtjs.dev/config-target)
-    target: 'static',
 
     // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
-    	title: 'Sidibé Cheick Ahmed',
     	head: {
     		htmlAttrs : {
     			lang : 'fr-FR'
@@ -12,10 +9,9 @@ export default {
     		meta: [
 	    		{ charset: 'utf-8' },
 	    		{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-	    		{ hid: 'description', name: 'description', content: 'Hello, je suis Ahmed ! développeur fullstack Laravel - Vue.js basé à Paris.' },
-	    		{ hid: 'canonical', name: 'canonical', content: 'https://cheickahmedsidibe.com' },
 	    		{ hid: 'type', name: 'type', content: 'website' },
-	    		{ hid : 'language', name : 'language', content : 'fr' },
+	    		{ hid: 'canonical', name: 'canonical', content: 'https://cheickahmedsidibe.com' },
+	    		{ hid : 'language', name : 'language', content : 'fr' }
     		],
     		link: [
 	    		{ rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },

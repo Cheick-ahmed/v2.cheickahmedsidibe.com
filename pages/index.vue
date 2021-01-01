@@ -3,11 +3,11 @@
 		<section>
 			<div class="max-w-5xl mx-auto px-4 sm:px-6 py-48">
 				<div>
-					<a href="https://www.malt.be/profile/cheickahmedsidibe" target="_blank" rel="nofollow noopener noreferrer" class="animate-bounce relative inline-flex items-center px-10 py-2 text-base font-medium rounded text-white bg-black hover:border-black focus:outline-none transition duration-500">
+					<a href="https://www.malt.be/profile/cheickahmedsidibe" target="_blank" rel="nofollow noopener noreferrer" class="animate-bounce relative inline-flex items-center px-10 py-3 text-base font-medium rounded text-white bg-black hover:border-black focus:outline-none transition duration-500">
 						<span>Disponible en freelance</span>
-						<svg class="w-5 h-5 absolute top-0 right-0 block bg-white transform -translate-y-1/2 translate-x-1/2 rounded-full text-green-500 ring-1 ring-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-						</svg>
+						<span class="h-6 w-6 absolute top-0 right-0 block bg-white ring ring-white transform -translate-y-1/2 translate-x-1/2 bg-green-100 rounded-full flex items-center justify-center" aria-hidden="true">
+							<span class="h-3 w-3 bg-green-400 rounded-full animate-pulse"></span>
+						</span>
 					</a>
 					<h1 class="mt-4 text-3xl leading-10 sm:text-4xl sm:mt-6 tracking-wide font-extrabold text-black lg:text-5xl xl:text-6xl xl:leading-tight">
 						<span class="block xl:inline">
@@ -138,7 +138,10 @@
 export default {
 	head () {
 		return {
-			title : 'Sidibé Cheick Ahmed'
+			title : 'Sidibé Cheick Ahmed',
+			meta : [
+			{ hid: 'description', name: 'description', content: 'Hello, je suis Ahmed ! développeur fullstack Laravel - Vue.js basé à Paris.' }
+			]
 		}
 	}
 }

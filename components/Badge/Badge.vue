@@ -1,5 +1,5 @@
 <template>
-	<span class="inline-flex items-center rounded-md text-sm font-medium" :class="`bg-${color}-50 text-${color}-800 ${resolveSize}`">
+	<span class="inline-flex items-center rounded-md text-sm font-semibold tracking-wide bg-black text-white" :class="`${resolveSize}`">
 		<slot></slot>
 	</span>
 </template>

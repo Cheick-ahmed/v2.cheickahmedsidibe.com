@@ -36,11 +36,11 @@
 		<section>
 			<div>
 				<div class="max-w-5xl mx-auto px-4 sm:px-6">
-					<h2 class="leading-6 font-semibold tracking-wide text-blue-600 uppercase mb-3">Mes projets</h2>
-					<!-- <p class="text-3xl sm:text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">Mes projets</p> -->
+					<h2 class="leading-6 font-semibold tracking-wide text-blue-600 uppercase mb-3">Projets</h2>
+					<p class="text-3xl sm:text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">Mes derniers projets</p>
 				</div>
 
-				<div class="mt-16 divide-y divide-gray-200">
+				<div class="mt-14 divide-y divide-gray-200">
 					<!-- Combimulstisport -->
 					<div>
 						<div class="pb-16">

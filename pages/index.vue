@@ -3,11 +3,9 @@
 		<section>
 			<div class="max-w-5xl mx-auto px-4 sm:px-6 py-48">
 				<div>
-					<a href="https://www.malt.fr/profile/cheickahmedsidibe" target="_blank" rel="nofollow noopener noreferrer" class="animate-bounce relative inline-flex items-center px-10 py-3 text-base font-medium rounded text-white bg-black hover:border-black focus:outline-none transition duration-500">
+					<a href="https://www.malt.fr/profile/cheickahmedsidibe" target="_blank" rel="nofollow noopener noreferrer" class="animate-bounce relative inline-flex items-center px-10 py-2.5 text-base font-semibold tracking-wider rounded text-white bg-black hover:border-black focus:outline-none transition duration-500">
 						<span>Disponible en freelance</span>
-						<span class="h-6 w-6 absolute top-0 right-0 block bg-white ring ring-white transform -translate-y-1/2 translate-x-1/2 bg-green-100 rounded-full flex items-center justify-center" aria-hidden="true">
-							<span class="h-3 w-3 bg-green-400 rounded-full animate-pulse"></span>
-						</span>
+						<span class="h-6 w-6 absolute top-0 right-0 block bg-white ring-4 ring-white transform -translate-y-1/2 translate-x-1/2 bg-green-400 rounded-full flex items-center justify-center" aria-hidden="true"></span>
 					</a>
 					<h1 class="mt-4 text-3xl leading-10 sm:text-4xl sm:mt-6 tracking-wide font-extrabold text-black lg:text-5xl xl:text-6xl xl:leading-tight">
 						<span class="block xl:inline">

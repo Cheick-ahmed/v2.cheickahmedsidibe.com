@@ -39,9 +39,40 @@
 				</div>
 
 				<div class="mt-14 divide-y divide-gray-200">
-					<!-- Combimulstisport -->
+
+					<!-- SalesPitch -->
 					<div>
 						<div class="pb-16">
+							<div class="max-w-6xl mx-auto px-4 sm:px-0">
+								<div class="max-w-5xl sm:px-4 sm:px-6 mx-auto sm:space-y-2 mb-10">
+									<h2 class="text-base sm:text-2xl text-gray-500">SalesPitch</h2>
+									<h3 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-extrabold">Article</h3>
+								</div>
+								<div>
+									<figure>
+										<nuxt-link :to=" { name : 'articles-slug', params : { slug : 'luxury-stand-up-desk' } } ">
+											<img class="relative rounded-lg shadow-xl mx-auto"style=" height : 700px " src="~assets/images/luxury-stand-up-desk.jpg" alt="App screenshot">
+										</nuxt-link>
+									</figure>
+								</div>
+								<div class="max-w-5xl mt-10 sm:px-4 sm:px-6 mx-auto">
+									<h4 class="mb-2 text-2xl leading-none font-extrabold sm:text-3xl tracking-tight">
+										<b>Luxury stand-up desk</b>
+									</h4>
+									<p class="mb-6 max-w-2xl font-medium">
+										Réfonte du site de paris sportifs <a href="https://www.combimultisport.com" target="_blank" rel="nofollow noopener noreferrer">combimultisport.com</a> qui permet à ses abonnés de recevoir des pronostics réalisés par des parieurs professionnels.
+									</p>
+									<Badge class="mr-2 sm:mr-3 mt-2 sm:mt-0" size="small" v-for="(skill, index) in ['Vue.Js','TailwindCSS'] " :key="index">
+										{{ skill }}
+									</Badge>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Combimulstisport -->
+					<div>
+						<div class="py-10 sm:pt-24 sm:pb-16">
 							<div class="max-w-6xl mx-auto px-4 sm:px-0">
 								<div class="max-w-5xl sm:px-4 sm:px-6 mx-auto sm:space-y-2 mb-10">
 									<h2 class="text-base sm:text-2xl text-gray-500">Combimultisport</h2>

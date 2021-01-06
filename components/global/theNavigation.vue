@@ -3,7 +3,9 @@
 		<div class="max-w-5xl mx-auto px-4 sm:px-6">
 			<div class="flex items-center justify-between">
 				<div class="flex-shrink-0 flex items-center">
-					<img class="h-10 w-auto" src="~assets/images/logo-black.svg" alt="Ahmed logo">
+					<nuxt-link :to=" { name : 'index' } ">
+						<img class="h-10 w-auto" src="~assets/images/logo-black.svg" alt="Ahmed logo">
+					</nuxt-link>
 				</div>
 
 				<div class="flex item-center space-x-2">
@@ -23,12 +25,12 @@
 </template>
 
 <script>
-	export default {
-		computed : {
-			date () {
-				let date = new Date()
-				return date.getFullYear()
-			}
+export default {
+	computed : {
+		date () {
+			let date = new Date()
+			return date.getFullYear()
 		}
 	}
+}
 </script>

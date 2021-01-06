@@ -3,8 +3,8 @@
 
 		<section class="max-w-5xl mx-auto px-4 sm:px-6 mt-16 sm:mt-24 xl:mt-32 py-4">
 			<p class="text-2xl leading-8 font-extrabold tracking-tight text-blue-600">Luxury stand-up desk</p>
-			<h1 class="text-4xl sm:text-6xl leading-none sm:leading-tight font-extrabold tracking-tight mt-10 mb-8 sm:mt-3">
-				<span class="bg-clip-text text-transparent bg-gradient-to-r from-gray-700 via-black to-gray-800">
+			<h1 class="text-3xl sm:text-6xl leading-none sm:leading-tight font-extrabold tracking-tight mt-10 mb-8 sm:mt-3">
+				<span class="sm:bg-clip-text sm:text-transparent sm:bg-gradient-to-r sm:from-gray-700 sm:via-black to-gray-800">
 					The best space where we feel productive, focused and inspired.
 				</span>
 			</h1>
@@ -143,7 +143,7 @@
 							You deserve on of those luxury stand-up desk, your life will be so much easier.
 						</p>
 						<nuxt-link :to=" { name : '' } " class="mt-8 bg-white border border-transparent rounded-md shadow px-6 py-3 inline-flex items-center text-base font-medium text-blue-600 hover:bg-indigo-50">
-							Buy my desk
+							Buy a desk
 						</nuxt-link>
 					</div>
 				</div>

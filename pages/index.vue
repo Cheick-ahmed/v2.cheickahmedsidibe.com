@@ -24,7 +24,7 @@
 					<h2 class="leading-6 font-semibold tracking-wide text-blue-600 uppercase mb-3">qui suis-je ?</h2>
 					<p class="text-3xl sm:text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">Moi en quelques mots</p>
 					<p class="text-lg sm:text-base sm:text-2xl text-gray-500 font-medium sm:leading-10 space-y-6 mb-6">
-						Fort de plus de 3 ans d'expérience dans le développement web et spécialisé sur les frameworks <strong>Laravel</strong>, <strong>VueJS </strong> et <strong>NuxtJS</strong>, je réponds à tous vos besoins de conception de sites web sur-mesure. <br />
+						Fort de plus de 4 ans d'expérience dans le développement web et spécialisé sur les frameworks <strong>Laravel</strong>, <strong>VueJS </strong> et <strong>NuxtJS</strong>, je réponds à tous vos besoins de conception de sites web sur-mesure. <br />
 						Mes technologies de prédilection étant <strong>Laravel</strong>, <strong>VueJS </strong>, <strong>NuxtJS</strong> et <strong>TailwindCSS</strong>, j’ai aussi quelques expériences réussies en <strong>React</strong> et <strong>Symfony</strong>.
 					</p>
 				</div>
@@ -88,7 +88,7 @@
 										<b>Profile Github</b>
 									</h4>
 									<p class="mb-6 max-w-xl font-medium">
-										Développement d'un site web permettant de voir de façon syntétisée son profil github (projets, top langages, repositories, ...)
+										Développement d'un site web permettant de voir de façon synthétisée son profil github (projets, top langages, repositories, ...)
 									</p>
 									<Badge class="mr-2 sm:mr-3 mt-2 sm:mt-0" size="small" v-for="(skill, index) in ['Nuxt.Js', 'Github API', 'TailwindCSS'] " :key="index">
 										{{ skill }}

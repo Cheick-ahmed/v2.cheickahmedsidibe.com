@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h3 class="text-lg leading-6 font-medium text-base-lightest-gray">
+		<h3 class="text-md leading-6 font-medium text-base-lightest-gray sm:text-lg">
 			<span> {{ experience.role }} </span>
 			<span class="text-base-green font-bold"> {{ experience.at }} </span>
 		</h3>

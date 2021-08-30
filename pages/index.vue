@@ -2,7 +2,7 @@
 	<div>
 		<!-- Hero  -->
 		<section>
-			<div class="max-w-5xl mx-auto px-4 sm:px-6 py-32">
+			<div class="max-w-5xl py-20 mx-auto px-4 sm:px-6 sm:py-32">
 				<div class="space-y-10">
 					<div class="max-w-4xl">
 						<div>
@@ -57,7 +57,7 @@
 							</div>
 						</div>
 						<div class="mt-12 relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none">
-							<svg class="absolute top-0 right-0 -mt-20 -mr-20 lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+							<svg class="hidden sm:block absolute top-0 right-0 -mt-20 -mr-20 lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
 								<defs>
 									<pattern id="bedc54bc-7371-44a2-a2bc-dc68d819ae60" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
 										<rect x="0" y="0" width="4" height="4" class="text-base-green" fill="currentColor" />
@@ -88,7 +88,7 @@
 		<section>
 			<div class="py-16 max-w-5xl mx-auto px-4 sm:px-6 sm:py-24">
 				<h2 class="leading-6 font-semibold tracking-wide text-base-green uppercase mb-3">Some Things I've Built</h2>
-				<div class="mt-12 grid grid-cols-3 gap-6">
+				<div class="mt-12 grid sm:grid-cols-3 gap-6">
 					<project-card v-for="project in projects" :key="project.id" :project="project" />
 				</div>
 			</div>
@@ -98,7 +98,6 @@
 		<!-- Contact -->
 		<section>
 			<div class="py-16 max-w-5xl mx-auto px-4 sm:px-6 sm:py-24">
-				<!-- Header -->
 				<div>
 					<div class="text-center">
 						<h2 class="text-base font-semibold text-base-green tracking-wide uppercase">What’s Next?</h2>
@@ -109,7 +108,7 @@
 					</div>
 					<div class="mt-12 sm:flex sm:items-center sm:justify-center">
 						<div class="rounded-md shadow">
-							<a href="mailto:pro.ahmed.sidibe@gmail.com" class="inline-flex items-center px-8 py-3 border border-base-green shadow-sm text-base font-medium rounded-md text-base-green bg-transparent hover:bg-base-green hover:bg-opacity-10 focus:outline-none focus:ring-base-green">
+							<a href="mailto:pro.ahmed.sidibe@gmail.com" class="block text-center w-full px-8 py-3 border border-base-green shadow-sm text-base font-medium rounded-md text-base-green bg-transparent hover:bg-base-green hover:bg-opacity-10 focus:outline-none focus:ring-base-green">
 								Say hello
 							</a>
 						</div>

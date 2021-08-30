@@ -1,6 +1,6 @@
 <template>
-	<div class="mt-10 grid grid-cols-3 gap-8">
-		<div class="border-l-4 border-base-gray h-52">
+	<div class="mt-10 sm:grid sm:grid-cols-3 sm:gap-8">
+		<div class="hidden sm:block border-l-4 border-base-gray h-52">
 			<a
 				v-for="experience in experiences"
 				:key="experience.id"
@@ -16,6 +16,28 @@
 				{{ experience.name }}
 			</a>
 		</div>
+
+		<div class="sm:hidden mb-6">
+			<div class="sm:hidden">
+				<label for="tabs" class="sr-only">Select a tab</label>
+				<select
+					id="tabs"
+					name="tabs"
+					v-model="selectedExperience"
+					@change="switchExperience(experience)"
+					class="bg-black text-base-gray block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-base-green focus:border-base-green sm:text-sm rounded-md"
+				>
+					<option
+						selected
+						v-for="experience in experiences"
+						:key="experience.id"
+					>
+						{{ experience.name }}
+					</option>
+				</select>
+			</div>
+		</div>
+
 		<div class="col-span-2">
 			<experiences-description :experience="selectedExperienceObject" />
 		</div>
@@ -27,14 +49,17 @@ export default {
 	props: {
 		experiences: {
 			type: Array,
-			required: true
-		}
+			required: true,
+		},
 	},
 
-	computed: {
+	computed: {
 		selectedExperienceObject() {
-			return this.$_.find(this.experiences, ['name', this.selectedExperience])
-		}
+			return this.$_.find(this.experiences, [
+				"name",
+				this.selectedExperience,
+			]);
+		},
 	},
 
 	data() {
@@ -46,7 +71,7 @@ export default {
 	methods: {
 		switchExperience(experience) {
 			if (!experience) {
-				return
+				return;
 			}
 
 			this.selectedExperience = experience.name;

@@ -18,7 +18,7 @@
 					</p>
 					<div class="max-w-md sm:flex">
 						<div class="rounded-md shadow">
-							<a href="#" class="inline-flex items-center px-8 py-3 border border-base-green shadow-sm text-base font-medium rounded-md text-base-green bg-transparent hover:bg-base-green hover:bg-opacity-10 focus:outline-none focus:ring-base-green">
+							<a  href="mailto:pro.ahmed.sidibe@gmail.com" class="inline-flex items-center px-8 py-3 border border-base-green shadow-sm text-base font-medium rounded-md text-base-green bg-transparent hover:bg-base-green hover:bg-opacity-10 focus:outline-none focus:ring-base-green">
 								Get in touch
 							</a>
 						</div>
@@ -75,6 +75,7 @@
 		</section>
 
 
+		<!-- Experiences -->
 		<section>
 			<div class="py-16 max-w-5xl mx-auto px-4 sm:px-6 sm:py-24">
 				<h2 class="leading-6 font-semibold tracking-wide text-base-green uppercase mb-3">Where I’ve Worked</h2>
@@ -90,6 +91,31 @@
 				<div class="mt-12 grid grid-cols-3 gap-6">
 					<project-card v-for="project in projects" :key="project.id" :project="project" />
 				</div>
+			</div>
+		</section>
+
+
+		<!-- Contact -->
+		<section>
+			<div class="py-16 max-w-5xl mx-auto px-4 sm:px-6 sm:py-24">
+				<!-- Header -->
+				<div>
+					<div class="text-center">
+						<h2 class="text-base font-semibold text-base-green tracking-wide uppercase">What’s Next?</h2>
+						<p class="mt-2 text-4xl font-extrabold text-base-lightest-gray sm:text-5xl sm:tracking-tight lg:text-6xl">Get In Touch</p>
+						<p class="max-w-xl mt-5 mx-auto text-lg text-base-gray">
+							Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+						</p>
+					</div>
+					<div class="mt-12 sm:flex sm:items-center sm:justify-center">
+						<div class="rounded-md shadow">
+							<a href="mailto:pro.ahmed.sidibe@gmail.com" class="inline-flex items-center px-8 py-3 border border-base-green shadow-sm text-base font-medium rounded-md text-base-green bg-transparent hover:bg-base-green hover:bg-opacity-10 focus:outline-none focus:ring-base-green">
+								Say hello
+							</a>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</section>
 	</div>

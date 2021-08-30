@@ -63,7 +63,7 @@
 		},
 		{
 			"id": "1ad12e54-e647-492a-a9a1-e548fbd38d83",
-			"order": 3,
+			"order": 4,
 			"title": "France Prono",
 			"description": "Built the sports prediction site run by professional bettors",
 			"tech": ["Vue.Js", "Nuxt.Js", "Laravel", "Tailwindcss"],
@@ -72,6 +72,20 @@
 					"id": "1a54b191-c789-4a18-9107-9a74dd725903",
 					"name": "website",
 					"url": "https://www.france-pronos.com/"
+				}
+			]
+		},
+		{
+			"id": "6efa1f71-b92c-4d82-8abc-460219d2256a",
+			"order": 3,
+			"title": "Addicted To Web",
+			"description": "Built the website for the Mobile First digital agency ideal for your projects.",
+			"tech": ["Vue.Js", "Nuxt.Js", "Tailwindcss"],
+			"links": [
+				{
+					"id": "58e9431e-0795-41de-a980-13dec4d8f928",
+					"name": "website",
+					"url": "https://addictedtoweb.fr/"
 				}
 			]
 		},

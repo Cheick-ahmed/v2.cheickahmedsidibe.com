@@ -1,0 +1,101 @@
+{
+	"data": [
+		{
+			"id": "5678031d-b793-4227-af5d-503e9b7807b2",
+			"order": 1,
+			"title": "Building the Programmatic Company plateform",
+			"description": "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
+			"tech": ["Vue.Js", "Nuxt.Js", "Tailwindcss"],
+			"links": [
+				{
+					"id": "9055366d-1964-4e48-ab20-2f3dd3f14993",
+					"name": "website",
+					"url": "https://www.theprogrammaticcompany.com/"
+				}
+			]
+		},
+		{
+			"id": "882cf1cc-7bdf-48de-9d86-e91606e163c4",
+			"order": 2,
+			"title": "Gridky",
+			"description": "Bulit a website for the 1st smart comparator of new real estate",
+			"tech": ["Vue.Js", "Nuxt.Js", "Tailwindcss"],
+			"links": [
+				{
+					"id": "45732454-ba34-4f89-a905-90cc6a6475ed",
+					"name": "website",
+					"url": "https://www.gridky.com/"
+				}
+			]
+		},
+		{
+			"id": "8a787a07-bb4b-403f-9d7c-a114d4db2717",
+			"order": 6,
+			"title": "OctoProfile",
+			"description": "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
+			"tech": ["Vue.Js", "Github API"],
+			"links": [
+				{
+					"id": "7a3b0c77-3224-428f-9e65-bb9b4940586e",
+					"name": "github",
+					"url": "https://github.com/Cheick-ahmed/OctoProfile"
+				}
+			]
+		},
+		{
+			"id": "0604b367-1a13-40cc-a46c-b38e998478cc",
+			"order": 5,
+			"title": "GameHer",
+			"description": "Complete overhaul and redesign GameHer: Get closer to the diversity of genres and cultures in the video game industry.",
+			"tech": ["Vue.Js", "Nuxt.Js"],
+			"links": [
+				{
+					"id": "8b310a37-0af8-4682-90f3-73f8a9600dbf",
+					"name": "github",
+					"url": "https://github.com/Cheick-ahmed/OctoProfile"
+				},
+				{
+					"id": "1271a9f7-bbdb-4c31-bc7e-9bffd45b4e61",
+					"name": "website",
+					"url": "https://gameher.cheickahmedsidibe.com/"
+				}
+			]
+		},
+		{
+			"id": "1ad12e54-e647-492a-a9a1-e548fbd38d83",
+			"order": 3,
+			"title": "France Prono",
+			"description": "Built the sports prediction site run by professional bettors",
+			"tech": ["Vue.Js", "Nuxt.Js", "Laravel", "Tailwindcss"],
+			"links": [
+				{
+					"id": "1a54b191-c789-4a18-9107-9a74dd725903",
+					"name": "website",
+					"url": "https://www.france-pronos.com/"
+				}
+			]
+		},
+		{
+			"id": "80c71ebd-4070-4fe0-9668-393fab650ed2",
+			"order": 10,
+			"title": "Kounghany Nafa",
+			"description": "Built the website koughanynafa.website for an association",
+			"tech": ["Laravel", "Tailwindcss"],
+			"links": []
+		},
+		{
+			"id": "308afef7-25ae-48be-b082-4bca82da799b",
+			"order": 4,
+			"title": "Personal Website V2",
+			"description": "Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.",
+			"tech": ["Vue.Js", "Nuxt.Js", "Tailwindcss"],
+			"links": [
+				{
+					"id": "03de0e67-89a7-4824-91c2-5ab3d8c2aa4a",
+					"name": "github",
+					"url": "https://github.com/Cheick-ahmed/v2.cheickahmedsidibe.com"
+				}
+			]
+		}
+	]
+}

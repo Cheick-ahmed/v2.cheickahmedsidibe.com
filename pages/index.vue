@@ -88,11 +88,10 @@
 			<div class="py-16 max-w-5xl mx-auto px-4 sm:px-6 sm:py-24">
 				<h2 class="leading-6 font-semibold tracking-wide text-base-green uppercase mb-3">Some Things I've Built</h2>
 				<div class="mt-12 grid grid-cols-3 gap-6">
-					<project-card />
+					<project-card v-for="project in projects" :key="project.id" :project="project" />
 				</div>
 			</div>
 		</section>
-
 	</div>
 </template>
 
@@ -104,13 +103,17 @@ export default {
 		}
 	},
 
-	async asyncData({ $content }) {
+	async asyncData({ $content, $_ }) {
 		try {
 			let experiences = await $content('experiences').fetch()
 
+			let projects = await $content('projects').sortBy('order').fetch()
+
 			return {
-				experiences : experiences.data
+				experiences : experiences.data,
+				projects : $_.orderBy(projects.data, 'order'),
 			}
+
 		} catch (e) {
 			console.log(e);
 		}

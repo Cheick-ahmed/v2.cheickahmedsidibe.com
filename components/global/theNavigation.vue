@@ -1,5 +1,5 @@
 <template>
-	<nav class="bg-white py-8 sticky top-0 z-10" style="backdrop-filter: saturate(180%) blur(40px); background-color: rgba(255,255,255,0.5);">
+	<nav class="bg-white py-6 sticky top-0 z-20 dark:bg-black" style="backdrop-filter: saturate(180%) blur(8px); background-color: rgba(25, 26, 27, 0.8);">
 		<div class="max-w-5xl mx-auto px-4 sm:px-6">
 			<div class="flex items-center justify-between">
 				<div class="flex-shrink-0 flex items-center">

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="dark dark:bg-black">
     	<theNavigation />
         <main>
         	<Nuxt />

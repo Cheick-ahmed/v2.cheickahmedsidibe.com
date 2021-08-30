@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/*html {
 	@apply font-rubik;
 }
-
+*/
 ::-webkit-scrollbar-track
 {
 	@apply bg-gray-50;

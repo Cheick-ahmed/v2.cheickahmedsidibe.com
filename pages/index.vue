@@ -1,221 +1,94 @@
 <template>
 	<div>
+		<!-- Hero  -->
 		<section>
-			<div class="max-w-5xl mx-auto px-4 sm:px-6 py-48">
-				<div>
-					<a href="https://www.malt.fr/profile/cheickahmedsidibe" target="_blank" rel="nofollow noopener noreferrer" class="animate-bounce relative inline-flex items-center px-10 py-2.5 text-base font-semibold tracking-wider rounded text-white bg-black hover:border-black focus:outline-none transition duration-500">
-						<span>Disponible en freelance</span>
-						<span class="h-6 w-6 absolute top-0 right-0 block bg-white ring-4 ring-white transform -translate-y-1/2 translate-x-1/2 bg-green-400 rounded-full flex items-center justify-center" aria-hidden="true"></span>
-					</a>
-					<h1 class="mt-4 text-3xl leading-10 sm:text-4xl sm:mt-6 tracking-wide font-extrabold text-black lg:text-5xl xl:text-6xl xl:leading-tight">
-						<span class="block xl:inline">
-							Hello, je suis Ahmed ! développeur fullstack Laravel Vue.js basé à Paris
-						</span>
-						<span class="block"></span>
-					</h1>
-
-				</div>
-			</div>
-		</section>
-
-		<section>
-			<div class="max-w-5xl mx-auto px-4 sm:px-6 py-16 sm:pb-32 xl:pb-40">
-				<div>
-					<h2 class="leading-6 font-semibold tracking-wide text-blue-600 uppercase mb-3">qui suis-je ?</h2>
-					<p class="text-3xl sm:text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">Moi en quelques mots</p>
-					<p class="text-lg sm:text-base sm:text-2xl text-gray-500 font-medium sm:leading-10 space-y-6 mb-6">
-						Développeur fullstack spécialisé sur Laravel et Vue.Js/Nuxt.Js, plus de 5 ans dans le Fullstack web. Je propose mes services en tant que développeur freelance à des startups, des structures à taille humaine et des grands groupes.
+			<div class="max-w-5xl mx-auto px-4 sm:px-6 py-32">
+				<div class="space-y-10">
+					<div class="max-w-4xl">
+						<div>
+							<p class="text-lg font-normal tracking-wider text-base-green">Hi, my name is</p>
+							<h2 class="mt-5 text-2xl font-semibold tracking-wider text-base-lightest-gray sm:text-3xl lg:text-5xl xl:text-6xl">Sidibé Cheick Ahmed.</h2>
+						</div>
+						<h1 class="mt-4 text-4xl font-extrabold text-base-lightest-gray tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
+							I build things for the web.
+						</h1>
+					</div>
+					<p class="text-lg text-gray-500 max-w-2xl sm:text-xl">
+						I'm fullstack developer based in Paris, specializing building (and occasionally designing) exceptional websites, applications, and everything in between.
 					</p>
-				</div>
-			</div>
-		</section>
-
-		<section>
-			<div>
-				<div class="max-w-5xl mx-auto px-4 sm:px-6">
-					<h2 class="leading-6 font-semibold tracking-wide text-blue-600 uppercase mb-3">Projets</h2>
-					<p class="text-3xl sm:text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">Mes derniers projets</p>
-				</div>
-
-				<div class="mt-14 divide-y divide-gray-200">
-
-					<!-- Combimulstisport -->
-					<div>
-						<div class="pb-16">
-							<div class="max-w-6xl mx-auto px-4 sm:px-0">
-								<div class="max-w-5xl sm:px-4 sm:px-6 mx-auto sm:space-y-2 mb-10">
-									<h2 class="text-base sm:text-2xl text-gray-500">Combimultisport</h2>
-									<h3 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-extrabold">Site web</h3>
-								</div>
-								<div>
-									<figure>
-										<img class="relative rounded-lg shadow-xl mx-auto" src="~assets/images/combimultisport.png" alt="App screenshot">
-									</figure>
-								</div>
-								<div class="max-w-5xl mt-10 sm:px-4 sm:px-6 mx-auto">
-									<h4 class="mb-2 text-2xl leading-none font-extrabold sm:text-3xl tracking-tight">
-										<b>Site de paris sportifs</b>
-									</h4>
-									<p class="mb-6 max-w-2xl font-medium">
-										Réfonte du site de paris sportifs <a href="https://www.combimultisport.com" target="_blank" rel="nofollow noopener noreferrer">combimultisport.com</a> qui permet à ses abonnés de recevoir des pronostics réalisés par des parieurs professionnels.
-									</p>
-									<Badge class="mr-2 sm:mr-3 mt-2 sm:mt-0" size="small" v-for="(skill, index) in ['Laravel', 'Vue.Js', 'Nuxt.Js', 'API','TailwindCSS'] " :key="index">
-										{{ skill }}
-									</Badge>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- OctoProfile -->
-					<div class="bg-gray-50">
-						<div class="py-10 sm:pt-24 sm:pb-16">
-							<div class="max-w-6xl mx-auto px-4 sm:px-0">
-								<div class="max-w-5xl sm:px-4 sm:px-6 mx-auto mb-10 sm:space-y-2">
-									<h2 class="text-base sm:text-2xl text-gray-500">Octoprofile</h2>
-									<h3 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-extrabold">Site web</h3>
-								</div>
-								<div>
-									<figure>
-										<nuxt-link :to=" { name : '' } " class="mt-1 text-blue-500 font-medium">
-											<img class="relative rounded-lg shadow-2xl mx-auto" src="~assets/images/octoProfile.png" alt="App screenshot">
-										</nuxt-link>
-									</figure>
-								</div>
-								<div class="max-w-5xl mt-10 sm:px-4 sm:px-6 mx-auto">
-									<h4 class="mb-2 text-2xl leading-none font-extrabold sm:text-3xl tracking-tight">
-										<b>Profile Github</b>
-									</h4>
-									<p class="mb-6 max-w-xl font-medium">
-										Développement d'un site web permettant de voir de façon synthétisée son profil github (projets, top langages, repositories, ...)
-									</p>
-									<Badge class="mr-2 sm:mr-3 mt-2 sm:mt-0" size="small" v-for="(skill, index) in ['Nuxt.Js', 'Github API', 'TailwindCSS'] " :key="index">
-										{{ skill }}
-									</Badge>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Kounghany Nafa  -->
-					<div>
-						<div class="py-10 sm:pt-24 sm:pb-16">
-							<div class="max-w-6xl mx-auto px-4 sm:px-0">
-								<div class="max-w-5xl sm:px-4 sm:px-6 mx-auto mb-10 sm:space-y-2">
-									<h2 class="text-base sm:text-2xl text-gray-500">Kounghany</h2>
-									<h3 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-extrabold">Site web</h3>
-								</div>
-								<div>
-									<figure>
-										<nuxt-link :to=" { name : '' } " class="mt-1 text-blue-500 font-medium">
-											<img class="relative rounded-lg shadow-xl mx-auto" src="~assets/images/kounghany_landing.png" alt="App screenshot">
-										</nuxt-link>
-									</figure>
-								</div>
-								<div class="max-w-5xl mt-10 sm:px-4 sm:px-6 mx-auto">
-									<h4 class="mb-2 text-2xl leading-none font-extrabold sm:text-3xl tracking-tight">
-										<b>Site association</b>
-									</h4>
-									<p class="mb-6 max-w-xl font-medium">
-										Création du site vitrine d'une association à but non lucratif permettant de créer des liens entre les ressortissants d'un village du Sénégal.
-									</p>
-									<Badge class="mr-2 sm:mr-3 mt-2 sm:mt-0" size="small" v-for="(skill, index) in ['Laravel', 'Stripe', 'Laravel Cashier²²', 'Laravel Forge', 'Digital Ocean','TailwindCSS'] " :key="index">
-										{{ skill }}
-									</Badge>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- NetDesign -->
-					<div class="bg-gray-50">
-						<div class="py-24 pb-16">
-							<div class="max-w-6xl mx-auto px-4 sm:px-0">
-								<div class="max-w-5xl sm:px-4 sm:px-6 mb-10 mx-auto sm:space-y-2">
-									<h2 class="text-base sm:text-2xl text-gray-500">NetDesigns</h2>
-									<h3 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-extrabold">Site web</h3>
-								</div>
-								<div>
-									<figure>
-										<nuxt-link :to=" { name : '' } " class="mt-1 text-blue-500 font-medium">
-											<img class="relative rounded-lg shadow-xl mx-auto" src="~assets/images/digitalite.png" alt="App screenshot">
-										</nuxt-link>
-									</figure>
-								</div>
-								<div class="max-w-5xl mt-10 sm:px-4 sm:px-6 mx-auto">
-									<h4 class="mb-2 text-2xl leading-none font-extrabold sm:text-3xl tracking-tight">
-										<b>site agence web</b>
-									</h4>
-									<p class="mb-6 max-w-xl font-medium">
-										Développement du site web d'une agence web accompagnant les entreprises et les particuliers dans l’ensemble de leurs stratégies digitales.
-									</p>
-									<Badge class="mr-2 sm:mr-3 mt-2 sm:mt-0" size="small" v-for="(skill, index) in ['Nuxt.Js', 'TailwindCSS'] " :key="index">
-										{{ skill }}
-									</Badge>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Week end sport -->
-					<div>
-						<div class="py-10 sm:pt-24 sm:pb-16">
-							<div class="max-w-6xl mx-auto px-4 sm:px-0">
-								<div class="max-w-5xl sm:px-4 sm:px-6 mx-auto mb-10 sm:space-y-2">
-									<h2 class="text-base sm:text-2xl text-gray-500">Week End Sport</h2>
-									<h3 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-extrabold">Site web</h3>
-								</div>
-								<div>
-									<figure>
-										<nuxt-link :to=" { name : '' } " class="mt-1 text-blue-500 font-medium">
-											<img class="relative rounded-lg shadow-2xl mx-auto" src="~assets/images/week-end-sport.png" alt="App screenshot">
-										</nuxt-link>
-									</figure>
-								</div>
-								<div class="max-w-5xl mt-10 sm:px-4 sm:px-6 mx-auto">
-									<h4 class="mb-2 text-2xl leading-none font-extrabold sm:text-3xl tracking-tight">
-										<b>Site de paris sportifs</b>
-									</h4>
-									<p class="mb-6 max-w-xl font-medium">
-										Développement du site de pronostics sportifs permettant à des abonnés de recevoir des pronostics réalisés par des parieurs professionnels.
-									</p>
-									<Badge class="mr-2 sm:mr-3 mt-2 sm:mt-0" size="small" v-for="(skill, index) in ['Laravel','Laravel Cashier', 'Stripe', 'TailwindCSS'] " :key="index">
-										{{ skill }}
-									</Badge>
-								</div>
-							</div>
+					<div class="max-w-md sm:flex">
+						<div class="rounded-md shadow">
+							<a href="#" class="inline-flex items-center px-8 py-3 border border-base-green shadow-sm text-base font-medium rounded-md text-base-green bg-transparent hover:bg-base-green hover:bg-opacity-10 focus:outline-none focus:ring-base-green">
+								Get in touch
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
+
+		<!-- About me -->
 		<section>
-			<div class="py-12 py-24 xl:py-32">
-				<div class="max-w-5xl mx-auto px-4 sm:px-6">
-					<div class="mb-16">
-						<h2 class="leading-6 font-semibold tracking-wide text-blue-600 uppercase mb-3">Avis clients</h2>
-						<p class="text-3xl sm:text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">Ils en parlent mieux</p>
+			<div class="py-16">
+				<div class="max-w-5xl mx-auto px-4 space-y-8 sm:px-6">
+					<div class="text-base max-w-prose mx-auto lg:max-w-none">
+						<h2 class="text-base text-base-green font-semibold tracking-wide uppercase">About me</h2>
 					</div>
-					<div>
-						<Testimonial :author=" { name : 'Etienne', 'company' : 'Red Baboon' } ">
-							<template #testimonial>
-								Cheick a travaillé avec nous sur le développement en PHP/Laravel - Nuxt/Vue.js d'une page de bilans de paris sportifs (filtres, graphiques, statistiques). Le rendu était très pro, design et répondait au cahier des charges. Il maîtrise particulièrement les framework Vue et Nuxt qui ont un rendu design et des performances optimisées pour une application web. Côté gestion de projet, il a su se montrer disponible afin de rendre les livrables en temps et en heure. Je vous recommande Cheick !
-							</template>
-						</Testimonial>
-						<Testimonial :author=" { name : 'Antoine', 'company' : 'Self' } ">
-							<template #testimonial>
-								<p class="max-w-lg">
-									Cheick Ahmed est un excellent développeur, impliqué et à l'écoute. Je referai appel à ses services sans hésiter.
+					<div class="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
+						<p class="text-lg text-gray-500">
+							Hi, I'm Ahmed and I enjoy builing highly performant, easy to use and look at custom solutions.
+							My interest in web development started back in 2015 when I started learning JavaScript, I was fascinated by the endless possibilities of opening up a web page to interact with the user. With just a few lines of code, you can change the entire course of a user's interaction with your site.
+						</p>
+					</div>
+					<div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+						<div class="relative z-10">
+							<div class="prose prose-base-green text-gray-500 mx-auto lg:max-w-none">
+								<p>
+									Fast-forward to today, I've been working as a fullstack developer since 2016 and I've had the privilege to work with teams that values user-centered design, and where the quality of the product is a top priority.
 								</p>
-							</template>
-						</Testimonial>
-						<Testimonial :author=" { name : 'Lauris Hounkpevi', 'company' : 'Ogan' } ">
-							<template #testimonial>
-								Cheick Ahmed est clairement un excellent développeur, très agréable humainement : à l'écoute, patient, engagé, rapide et efficace. Avec sa parfaite maîtrise de Nuxt.Js et Laravel mon projet a vu le jour avec un code propre et bien structuré. Je le recommande fortement !
-							</template>
-						</Testimonial>
+								<p>
+									My main focus these days is buiding accessible, inclusive products and digital expericences as a freelancer for a variety of clients.
+								</p>
+								<h3 class="0">How I can help you</h3>
+								<p>
+									You’re looking for a developer who can help you create fast-paced web applications that are full of interactivity and rich content. I’m an expert at using frameworks like <strong>Vue.js - Nuxt.Js</strong> and <strong>Tailwindcss</strong> to quickly build scalable, powerful apps.
+								</p>
+							</div>
+						</div>
+						<div class="mt-12 relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none">
+							<svg class="absolute top-0 right-0 -mt-20 -mr-20 lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+								<defs>
+									<pattern id="bedc54bc-7371-44a2-a2bc-dc68d819ae60" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+										<rect x="0" y="0" width="4" height="4" class="text-base-green" fill="currentColor" />
+									</pattern>
+								</defs>
+								<rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
+							</svg>
+							<figure class="relative rounded-lg shadow-lg">
+								<img class="rounded-lg shadow-lg object-cover h-[440px] object-center" src="~/assets/images/ahmed.JPG" alt="Whitney leaning against a railing on a downtown street" width="404" height="440">
+							</figure>
+						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section>
+			<div class="py-16 max-w-5xl mx-auto px-4 sm:px-6 sm:py-24">
+				<h2 class="leading-6 font-semibold tracking-wide text-base-green uppercase mb-3">Where I’ve Worked</h2>
+				<experiences :experiences="experiences" />
+			</div>
+		</section>
+
+
+		<!-- Projects -->
+		<section>
+			<div class="py-16 max-w-5xl mx-auto px-4 sm:px-6 sm:py-24">
+				<h2 class="leading-6 font-semibold tracking-wide text-base-green uppercase mb-3">Some Things I've Built</h2>
+				<div class="mt-12 grid grid-cols-3 gap-6">
+					<project-card />
 				</div>
 			</div>
 		</section>
@@ -229,6 +102,19 @@ export default {
 		return {
 			title : 'Sidibé Cheick Ahmed',
 		}
+	},
+
+	async asyncData({ $content }) {
+		try {
+			let experiences = await $content('experiences').fetch()
+
+			return {
+				experiences : experiences.data
+			}
+		} catch (e) {
+			console.log(e);
+		}
+
 	}
 }
 </script>

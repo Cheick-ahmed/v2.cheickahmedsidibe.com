@@ -1,6 +1,14 @@
 {
 	"data": [
 		{
+			"id": "5a8bbbc1-5b3e-4cea-b92f-1e1b8bbc37c1",
+			"name": "Nexity",
+			"role": "Front-end developer",
+			"at": "@ Nexity",
+			"range": "Sept - Now",
+			"description": "<p>Architected and implementated the front-end of the platform that strengthens brands in the exploitation of paid digital media strategies</p><ul><li>Front-end development with <span class=\"text-base-green\">Vue.JS - Nuxt.Js</span></li><li>Interface with user experience designers and other developers to ensure thoughtful and consistent user experiences across the entire website</li><li>Participation in the design and drafting phases oftechnical specifications.</li></ul>"
+		},
+		{
 			"id": "91406be1-87ff-4f27-a0bf-189963962bfd",
 			"name": "The programmatic Company",
 			"role": "Lead Front-end developer",

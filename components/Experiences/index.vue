@@ -1,6 +1,6 @@
 <template>
 	<div class="mt-10 sm:grid sm:grid-cols-3 sm:gap-8">
-		<div class="hidden sm:block border-l-4 border-base-gray h-52">
+		<div class="hidden sm:block border-l-4 border-base-gray h-[16.2rem]">
 			<a
 				v-for="experience in experiences"
 				:key="experience.id"

@@ -1,7 +1,7 @@
 <template>
     <div class="overflow-hidden bg-black">
     	<theNavigation />
-        <main>
+        <main class="mt-28">
         	<Nuxt />
         </main>
         <theFooter />

@@ -16,7 +16,8 @@ module.exports = {
 					green: '#64ffda',
 					gray: '#8892b0',
 					'light-gray': '#a8b2d1',
-					'lightest-gray': '#ccd6f6'
+					'lightest-gray': '#ccd6f6',
+					'transparent-gray': '#3f3f44'
 				}
 			},
 			typography: {
